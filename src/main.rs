@@ -1,10 +1,11 @@
-mod lib;
+mod game;
+
 use std::{
     cmp::{max, min},
     thread, time,
 };
 
-use lib::world::{Component, World};
+use game::world::{Component, World};
 use rand::prelude::*;
 
 // use serde::Serialize;
