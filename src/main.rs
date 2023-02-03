@@ -9,7 +9,6 @@ use rand::prelude::*;
 // use serde::Serialize;
 // use warp::Filter;
 
-#[derive(Debug)]
 struct Health {
     points: u8,
 }
