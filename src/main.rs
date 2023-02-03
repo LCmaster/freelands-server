@@ -1,3 +1,4 @@
+mod lib;
 use std::{
     cmp::{max, min},
     thread, time,
